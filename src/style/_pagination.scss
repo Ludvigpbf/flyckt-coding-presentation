@@ -1,0 +1,54 @@
+$orange-dark: #eb7405;
+
+.pagination {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    bottom: 2rem;
+    right: 3rem;
+    gap: 1rem;
+    height: auto;
+
+    button {
+        background-color: transparent;
+        padding: 0;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 0.6;
+        }
+
+
+    }
+
+    .disabled {
+        opacity: 0;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0;
+            cursor: auto;
+        }
+    }
+
+    .pagination-slide {
+        font-size: 24px;
+        color: $orange-dark;
+        min-width: 2rem;
+        text-align: center;
+        padding-bottom: 0.2rem;
+    }
+
+    .active {
+        opacity: 0.6;
+    }
+
+
+}

@@ -1,0 +1,36 @@
+#slide--1 {
+    .slide-1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .welcome {
+            margin: 1.5rem 0;
+            font-size: 44px;
+            background-image: linear-gradient(#add6e6, #ffffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 {
+            margin: 1.5rem 0;
+            font-size: 64px;
+            background-image: linear-gradient(#30A6D6, #09739d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 22px;
+            background-image: linear-gradient(#add6e6, #ffffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

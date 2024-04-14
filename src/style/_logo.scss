@@ -1,0 +1,50 @@
+.logo {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    z-index: 1;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-2px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
