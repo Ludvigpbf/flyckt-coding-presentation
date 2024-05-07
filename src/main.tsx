@@ -14,32 +14,6 @@ const router = createBrowserRouter([
       /*    </Provider>
       </> */
     ),
-    /*  children: [
-      {
-        path: "/",
-        element: <Landing></Landing>,
-      },
-      {
-        path: "/faq",
-        element: <Faq></Faq>,
-      },
-      {
-        path: "/about",
-        element: <About></About>,
-      },
-      {
-        path: "/work",
-        element: <Work></Work>,
-      },
-      {
-        path: "/contact",
-        element: <Contact></Contact>,
-      },
-      {
-        path: "/for-developers",
-        element: <Devs></Devs>,
-      },
-    ], */
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
