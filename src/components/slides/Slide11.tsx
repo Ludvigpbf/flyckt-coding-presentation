@@ -3,11 +3,41 @@ import { SlideProps } from "../../interface/SlideInterface";
 const Slide11: React.FC<SlideProps> = (props) => {
   return (
     <div className={props.slideClassName}>
-      <h1>{props.title}</h1>
-      <h2>{props.text1}</h2>
-      <p>{props.text2}</p>
-      <h2>{props.text3}</h2>
-      <p>{props.text4}</p>
+      <div className="header">
+        <h1>{props.title}</h1>
+      </div>
+      <div className="content-container">
+        <div className="card">
+          <h2>{props.text1}</h2>
+          <div className="list-content">
+            <ul>
+              {props.list?.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="card">
+          <h2>{props.text2}</h2>
+          <div className="list-content">
+            <ul>
+              {props.list2?.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="card">
+          <h2>{props.text3}</h2>
+          <div className="list-content">
+            <ul>
+              {props.list3?.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

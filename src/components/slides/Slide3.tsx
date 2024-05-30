@@ -7,14 +7,15 @@ const Slide3: React.FC<SlideProps> = (props) => {
       : import.meta.env.VITE_DEV_URL;
   return (
     <div className={props.slideClassName}>
-      <div className="info-container">
+      <div className="header">
         <h1>{props.title}</h1>
-        <p>{props.text1}</p>
-        <p>{props.text2}</p>
-        <p>{props.text3}</p>
       </div>
-      <div className="image-container">
-        <img src={`${imageUrl}${props.image1}`} alt="" />
+      <div className="content-container planning-one">
+        <p className="info-text">{props.text1}</p>
+        <div className="image-container">
+          <img src={`${imageUrl}${props.image1}`} alt="" />
+          <p>{props.text2}</p>
+        </div>
       </div>
     </div>
   );

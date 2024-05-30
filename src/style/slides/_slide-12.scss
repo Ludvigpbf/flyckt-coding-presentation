@@ -1,19 +1,17 @@
 #slide--12 {
-    .slide-12 {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  .slide-12 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        h1 {
-            color: #74cef2;
-            font-size: 2.5rem;
-        }
-
-        p {
-            font-size: 1.5rem;
-        }
+    h1 {
+      color: #74cef2;
+      font-size: 2.5rem;
     }
+    li {
+      font-size: 1.5rem;
+    }
+  }
 }

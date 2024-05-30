@@ -3,58 +3,54 @@
 @import "pagination";
 @import "files";
 @import "slides/index.scss";
+@import "common";
 
 $orange-dark: #eb7405;
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    color: black;
-    margin: 0;
-    background-color: rgb(28, 28, 28);
+  color: black;
+  margin: 0;
+  background-color: rgb(28, 28, 28);
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+
+  #root {
     width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
+    height: 100%;
+    font-size: 16px;
 
-    #root {
-        width: 100%;
-        height: 100%;
-        font-size: 16px;
+    .slideshow {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      perspective: 1000px;
 
-
-        .slideshow {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            perspective: 1000px;
-
-            .hovered-slide-indicator {
-                position: absolute;
-                top: 50%;
-                left: 10%;
-                padding: 1rem;
-                color: $orange-dark;
-            }
-        }
-
+      .hovered-slide-indicator {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        padding: 1rem;
+        color: $orange-dark;
+      }
     }
-
+  }
 }
 
 body::-webkit-scrollbar {
-    width: 0.3rem;
-    /* width of the entire scrollbar */
+  width: 0.3rem;
+  /* width of the entire scrollbar */
 }
 
-
-
 body::-webkit-scrollbar-thumb {
-    background-color: $orange-dark;
-    /* color of the scroll thumb */
-    border-radius: 1rem;
-    /* roundness of the scroll thumb */
-    border: none;
-    /* creates padding around scroll thumb */
+  background-color: $orange-dark;
+  /* color of the scroll thumb */
+  border-radius: 1rem;
+  /* roundness of the scroll thumb */
+  border: none;
+  /* creates padding around scroll thumb */
 }

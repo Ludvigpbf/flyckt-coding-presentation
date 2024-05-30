@@ -7,7 +7,7 @@ const Slide15: React.FC<SlideProps> = (props) => {
       : import.meta.env.VITE_DEV_URL;
   return (
     <div className={props.slideClassName}>
-      <div className="info-container">
+      <div className="header">
         <h1>{props.title}</h1>
         <div className="container">
           <p>{props.text1}</p>

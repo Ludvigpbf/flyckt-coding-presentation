@@ -7,7 +7,7 @@ const Slide20: React.FC<SlideProps> = (props) => {
       : import.meta.env.VITE_DEV_URL;
   return (
     <div className={props.slideClassName}>
-      <div className="banner">
+      <div className="header">
         <h2>{props.title}</h2>
         <h1>{props.span}</h1>
         <p>{props.text1}</p>
