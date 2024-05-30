@@ -327,7 +327,7 @@
   gap: 5rem;
 }
 #slide--6 .slide-6 .screens-container img {
-  height: 55rem;
+  height: 45rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -359,7 +359,7 @@
   font-size: 2rem;
 }
 #slide--7 .slide-7 .screens-container .screen img {
-  height: 55rem;
+  height: 45rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
