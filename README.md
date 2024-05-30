@@ -1,4 +1,3 @@
-# React boilerplate template
+# Presentations
 
-This is a React boilerplate template with vite, redux and typescript
-
+This repo contains a React Presentation project. Each branch has its own presentation.
