@@ -43,6 +43,9 @@ Follow these instructions to run the presentation locally on your machine.
    npm install
    ```
 
+3. Create .env
+   Create a new .env file with the variables and data from the .env.example. Modify your production url to match the PUBLIC_URL. 
+   
 ### Running the Presentation
 
 To start the development server and view the presentation, run:
