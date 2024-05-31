@@ -64,6 +64,7 @@ This will create a `dist` directory with the production-ready files.
 ## Usage
 
 - **Slides Navigation**: Use the arrow keys or navigation buttons to move between slides.
+- - **Slides Overview**: Use the "folders" button to get a preview of all slides.
 
 ## License
 
@@ -72,8 +73,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
-- [Sass](https://sass-lang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
----
-
-Feel free to adjust this template to better suit the specifics of your project.
