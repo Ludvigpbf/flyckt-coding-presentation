@@ -37,7 +37,7 @@ To start the development server, run:
 npm start
 ```
 
-This will start the app and open it in your default web browser.
+This will start the app and open it in your default web browser at `http://localhost:5173`.
 
 ### Building the Project
 
