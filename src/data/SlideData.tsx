@@ -322,12 +322,14 @@ export const slides: SlideData[] = [
     text8: "",
     text9: "",
     text10: "",
-    list: ["React Native vs React", "Styling", "SEO", "UX", "Funktionalitet"],
-    list2: ["React Native vs React", "Styling", "Kodstruktur", "API"],
+    list: ["Design", "Styling", "Standarder & SEO", "UX", "Funktionalitet"],
+    list2: ["Språk", "Beroenden", "Styling", "Kodstruktur" ],
     list3: [
       "Offline funktionalitet",
+      "Prestanda",
       "Native funktionalitet",
       "Native kod",
+      "Tillgänglighet",
       "Appstore",
     ],
     image1: "",
@@ -360,14 +362,18 @@ export const slides: SlideData[] = [
     list: [
       "Smidigare att bygga",
       "Lättare att underhålla",
+      "Mer tillgänglig",
       "SEO, URL",
       "Sämre UX",
+      "Sämre prestanda"
     ],
     list2: [
-      "Mer kompliserat",
-      "Kan användas offline",
       "Native funktionalitet",
       "Bättre UX",
+      "Bättre prestanda",
+      "Kan användas offline",
+      "Mer kompliserad",
+      "Inte lika tillgänglig"
     ],
     image1: "",
     image2: "",
